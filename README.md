@@ -12,13 +12,15 @@ grep(string, filename)
 
 ### Test It
 
-Ffor one of your Python files containing code, do:
+For one of your Python files containing code, do:
 ```
->>> grep("def", "somefile.py")
+>>> grep("def ", "somefile.py")
 ```
 
+Try to write a function that will work for any size text file, even an extremely long file with billions of lines.
+
 ### Hints:
-1. To open a file use:   `file = open("filename", "r")` or `open("filename")`
+1. To open a file use:  `file = open("filename", "r")`
 2. To check if a line contains a string, use:
    ```python
    import re
